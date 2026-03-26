@@ -1,0 +1,23 @@
+{
+  "name": "ats-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for ATS resume analysis using OpenAI GPT-4",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["telegram", "bot", "ats", "resume", "openai"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "openai": "^4.28.0",
+    "pdf-parse": "^1.1.1",
+    "mammoth": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "node-latex": "^3.1.0",
+    "pdfkit": "^0.15.0"
+  }
+}
